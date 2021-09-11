@@ -1,0 +1,35 @@
+/* services */
+
+.service-hightlights-section {  
+  padding-top: 100px;
+}
+
+/* porfolio sing */
+.port-single-section {
+  padding-top: 90px;
+}
+
+.port-text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 400px;
+}
+.port-img-rounded-corners img {
+  padding: 0;
+  border-radius: 10px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+/* nations of shoe */
+
+
+/* take care of */
+.port-takecareof {
+  padding-bottom: 60px;
+}
