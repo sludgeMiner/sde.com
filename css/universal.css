@@ -229,16 +229,7 @@ section, .section {
   z-index: 992;
   padding-top: 140px;
   padding-bottom: 140px;
-  background-color: #fff; }
-
-.section-blue {
-  background-color: #2e3d98;
-  color: #eee;
-}
-.section-black {
-  color: #eee;
-  background-color: #131313;
-}
+  background-color: #fcfbfb; }
 
 .section-small {
   position: relative;
@@ -718,7 +709,7 @@ a.btn-nav .btn {
   line-height: 13px !important; }
 
   /*  services nav menu */
-.services_nav_menu { 
+.services_nav_menu-web { 
   background: #fff ;
   opacity: 0.95 ;
   padding: 30px;
@@ -729,55 +720,54 @@ a.btn-nav .btn {
   box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
   -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
 }
-.services_nav_menu h3{ 
+
+.services_nav_menu-web ol {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.services_nav_menu-web h3{ 
   color: #333;
   line-height: 1.2;
   
 }
-.nav .services_nav_menu li.active a {
-  color: #606162 !important;
-}
-.services_nav_menu ul {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-}
-.services_nav_menu .row .col-md-4:nth-child(2){
+.services_nav_menu-wev .row .col-md-4:nth-child(2){
   border-left: 1px solid #aaa;
   border-right: 1px solid #aaa;  
   min-height: 301px;
 }
 
-.services_nav_menu li.active a:hover {
+.nav .services_nav_menu-web a {
+  color: #606162 !important;
+}
+.nav .services_nav_menu-web li.active a {
+  color: #606162 !important;
+}
+.services_nav_menu-web a:hover {
   color: #2e3d98 !important;
   padding-left: 10px;
 }
 
 /* in development */
-/* .services_nav_menu .col-md-4 > h4{
+/* .services_nav_menu-web .col-md-4 > h4{
   margin: 15px 0px 3px;
 }
-.services_nav_menu .col-md-4 > h4 a{
+.services_nav_menu-web .col-md-4 > h4 a{
   font-size: inherit;
   color: #222;
 } */
 
-.services_nav_menu  ol {
-  padding-left: 0px;
-}
-.services_nav_menu  ol li {
-  list-style-type: style none;
-}
-.services_nav_menu .col-md-4 > h4{
+
+.services_nav_menu-web .col-md-4 > h4{
   margin: 18px 0px 3px;
   color: #222;
 }
-.services_nav_menu h4:hover{
+.services_nav_menu-web h4:hover{
   color: #000;
 }
-/* services nav menu */
+/* services nav menu  end*/
 
-.navbar-custom .nav .dropdown-menu .services_nav_menu li a:hover {
+.navbar-custom .nav .dropdown-menu .services_nav_menu-web li a:hover {
   background-color: #fff; }
 .nav .fa {
   font-size: 16px;
@@ -937,7 +927,7 @@ a.btn-nav .btn {
 
 /* Backgrounds and font color */
 .bg-white {
-  background-color: #fff;
+  background-color: #fcfbfb;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee; }
 

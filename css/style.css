@@ -1,3 +1,20 @@
+
+#mobile-services_nav {
+  display: none;
+}
+
+.section-blue {
+  background-color: #2e3d98;
+  color: #eee;
+}
+.section-black {
+  color: #eee;
+  background-color: #131313;
+}
+.section-white {
+  color: #fcfbfb;
+}
+
 /* services */
 
 .service-hightlights-section {  
@@ -32,4 +49,13 @@
 /* take care of */
 .port-takecareof {
   padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 991px) {
+  #web-services_nav {
+    display: none;
+  }
+  #mobile-services_nav {
+    display: block;
+  }
 }
